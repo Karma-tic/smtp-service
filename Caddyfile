@@ -1,0 +1,5 @@
+# Replace newsletter.yourdomain.com with your actual domain
+# Caddy will automatically generate a free HTTPS SSL certificate for it!
+newsletter.yourdomain.com {
+    reverse_proxy app:9000
+}
